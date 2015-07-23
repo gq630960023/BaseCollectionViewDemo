@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDCBBE1B1B611F2E00ACCBFF /* NIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCBBE1A1B611F2E00ACCBFF /* NIBViewController.m */; };
+		BDCBBE1F1B61217E00ACCBFF /* NIBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCBBE1D1B61217E00ACCBFF /* NIBCollectionViewCell.m */; };
+		BDCBBE201B61217E00ACCBFF /* NIBCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDCBBE1E1B61217E00ACCBFF /* NIBCollectionViewCell.xib */; };
 		CCBEA0ED1B5C94AE0001E2E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEA0EC1B5C94AE0001E2E4 /* main.m */; };
 		CCBEA0F01B5C94AE0001E2E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEA0EF1B5C94AE0001E2E4 /* AppDelegate.m */; };
 		CCBEA0F31B5C94AE0001E2E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEA0F21B5C94AE0001E2E4 /* ViewController.m */; };
@@ -27,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDCBBE191B611F2E00ACCBFF /* NIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIBViewController.h; sourceTree = "<group>"; };
+		BDCBBE1A1B611F2E00ACCBFF /* NIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIBViewController.m; sourceTree = "<group>"; };
+		BDCBBE1C1B61217E00ACCBFF /* NIBCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIBCollectionViewCell.h; sourceTree = "<group>"; };
+		BDCBBE1D1B61217E00ACCBFF /* NIBCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIBCollectionViewCell.m; sourceTree = "<group>"; };
+		BDCBBE1E1B61217E00ACCBFF /* NIBCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NIBCollectionViewCell.xib; sourceTree = "<group>"; };
 		CCBEA0E71B5C94AE0001E2E4 /* CollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBEA0EB1B5C94AE0001E2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBEA0EC1B5C94AE0001E2E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +97,11 @@
 				CCBEA0F71B5C94AE0001E2E4 /* Images.xcassets */,
 				CCBEA0F91B5C94AE0001E2E4 /* LaunchScreen.xib */,
 				CCBEA0EA1B5C94AE0001E2E4 /* Supporting Files */,
+				BDCBBE191B611F2E00ACCBFF /* NIBViewController.h */,
+				BDCBBE1A1B611F2E00ACCBFF /* NIBViewController.m */,
+				BDCBBE1C1B61217E00ACCBFF /* NIBCollectionViewCell.h */,
+				BDCBBE1D1B61217E00ACCBFF /* NIBCollectionViewCell.m */,
+				BDCBBE1E1B61217E00ACCBFF /* NIBCollectionViewCell.xib */,
 			);
 			path = CollectionViewDemo;
 			sourceTree = "<group>";
@@ -201,6 +214,7 @@
 			files = (
 				CCBEA0F61B5C94AE0001E2E4 /* Main.storyboard in Resources */,
 				CCBEA0FB1B5C94AE0001E2E4 /* LaunchScreen.xib in Resources */,
+				BDCBBE201B61217E00ACCBFF /* NIBCollectionViewCell.xib in Resources */,
 				CCBEA0F81B5C94AE0001E2E4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +235,9 @@
 			files = (
 				CCBEA0F31B5C94AE0001E2E4 /* ViewController.m in Sources */,
 				CCBEA0F01B5C94AE0001E2E4 /* AppDelegate.m in Sources */,
+				BDCBBE1B1B611F2E00ACCBFF /* NIBViewController.m in Sources */,
 				CCBEA0ED1B5C94AE0001E2E4 /* main.m in Sources */,
+				BDCBBE1F1B61217E00ACCBFF /* NIBCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +434,7 @@
 				CCBEA10C1B5C94AE0001E2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCBEA10D1B5C94AE0001E2E4 /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +443,7 @@
 				CCBEA10F1B5C94AE0001E2E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
